@@ -35,21 +35,24 @@ Embora a rede convolucional (CNN 1-D) tenha alcançado o maior pico de pontuaç�
 
 ---
 
-## 🚀 Como Executar Localmente
+## 🚀 Como Executar Localmente (Treinamento e Inferência)
 
 ### 1. Pré-requisitos
 Certifique-se de ter o **Python 3.11** instalado em sua máquina. O uso de versões muito recentes (como 3.13) ou ambientes gerenciados pelo `uv` podem bloquear a instalação global de pacotes devido à PEP 668.
 
-### 2. Configurando o Ambiente Virtual (Recomendado)
+### 2. Configurando o Ambiente e Instalando Dependências
 Clone o repositório e crie uma "bolha" isolada para o projeto usando o terminal:
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
-cd SEU_REPOSITORIO
+git clone https://github.com/DAVIMEDX/data_glove_project_with_esp_32.git
+cd data_glove_project_with_esp_32
 
 # Crie o ambiente virtual (Windows)
 py -3.11 -m venv .venv
 
 # Ative o ambiente virtual
 .\.venv\Scripts\activate
+
+# Instale as dependências necessárias para o projeto
+pip install -r requirements.txt
