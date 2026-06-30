@@ -58,5 +58,3 @@ py -3.11 -m venv .venv
 <<<<<<< HEAD
 pip install -r requirements.txt
 =======
-pip install -r requirements.txt
->>>>>>> 9ebec5f897de526f3ab660f6ccc752c290995367
